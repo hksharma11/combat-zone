@@ -1,0 +1,36 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+       <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+<!--        <item name="colorAccent">@color/colorAccent</item>-->
+    </style>
+
+
+    <style name="Otptheme"
+        parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/customPrimary</item>
+        <item name="colorPrimaryDark">@color/customPrimaryDark</item>
+        <item name="colorAccent">@color/customAccent</item>
+
+    </style>
+
+
+    <style name="hometheme" parent="Theme.AppCompat.Light.NoActionBar">
+        
+        <item name="colorPrimary">@color/homePrimary</item>
+        <item name="colorPrimaryDark">@color/homePrimaryDark</item>
+        <item name="colorAccent">@color/homeAccent</item>
+
+    </style>
+
+
+
+
+
+
+
+
+
+</resources>

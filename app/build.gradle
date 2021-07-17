@@ -1,0 +1,89 @@
+buildscript {
+    repositories {
+        maven { url 'https://plugins.gradle.org/m2/'}
+    }
+    dependencies {
+        classpath 'gradle.plugin.com.onesignal:onesignal-gradle-plugin:0.12.8'
+    }
+}
+apply plugin: 'com.onesignal.androidsdk.onesignal-gradle-plugin'
+
+repositories {
+    maven { url 'https://maven.google.com' }
+}
+
+
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+
+
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.3"
+
+    defaultConfig {
+        applicationId "com.e.zone"
+        minSdkVersion 22
+        targetSdkVersion 29
+        versionCode 6
+        versionName "6.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        android {
+            defaultConfig {
+                manifestPlaceholders = [
+                        onesignal_app_id: 'f4a70e3a-31ce-4de1-825b-d2afca3cd140',
+                        // Project number pulled from dashboard, local value is ignored.
+                        onesignal_google_project_number: 'REMOTE'
+                ]
+            }
+        }
+
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation 'androidx.appcompat:appcompat:1.0.2'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'com.google.firebase:firebase-firestore:21.5.0'
+    implementation 'com.google.firebase:firebase-auth:19.3.2'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation 'com.google.android.material:material:1.1.0'
+    implementation 'com.google.firebase:firebase-storage:19.1.1'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
+   //mplementation 'com.google.android.material:material:1.1.0-alpha07'
+
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+    implementation 'com.google.firebase:firebase-analytics:17.5.0'
+
+    implementation 'com.onesignal:OneSignal:3.15.1'
+
+    implementation 'com.squareup.picasso:picasso:2.71828'
+
+    implementation 'com.android.volley:volley:1.1.1'
+
+
+    implementation('com.paytm:pgplussdk:1.3.3') {
+        transitive = true
+    }
+
+
+
+    implementation 'com.google.android.gms:play-services-ads:19.3.0'
+    implementation 'am.appwise.components:NoInternetDialog:1.1.3'
+
+
+}

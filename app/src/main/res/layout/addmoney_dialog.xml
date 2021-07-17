@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#05B0FB"
+        android:layout_marginTop="10sp"
+        android:text="Add Money"
+        android:id="@+id/heading"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="serif"
+        android:textSize="25sp"/>
+
+    <View
+        android:layout_width="27sp"
+
+
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10sp"
+        android:layout_marginTop="15sp"
+        android:id="@+id/addmoney_dialog_view_close"
+        android:layout_height="27sp"
+        android:backgroundTint="#000"
+        android:background="@drawable/close"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#616161"
+        android:id="@+id/view"
+        android:layout_below="@id/heading"
+        android:layout_marginTop="10sp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Amount:"
+        android:layout_marginStart="15sp"
+        android:layout_below="@+id/view"
+        android:id="@+id/heading1"
+        android:layout_marginTop="15sp"
+        android:layout_marginEnd="15sp"
+        android:textColor="#000"
+        android:textSize="16sp"
+        />
+
+
+    <EditText
+
+        android:background="@drawable/btn_corner5"
+        android:padding="10dp"
+        android:id="@+id/addmoney_dialog_edittext_amount"
+        android:layout_width="match_parent"
+        android:layout_marginStart="15sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="15sp"
+        android:hint="Eg. 100"
+        android:layout_below="@+id/heading1"
+        android:layout_height="wrap_content"
+
+        android:singleLine="true"
+
+        android:inputType="number"/>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+
+        android:layout_below="@+id/addmoney_dialog_edittext_amount"
+        android:id="@+id/image"
+        android:layout_marginTop="10sp"
+        android:src="@drawable/paytm"
+        android:layout_height="20sp"/>
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:layout_below="@+id/image"
+        android:text="Add Money"
+        android:paddingStart="20sp"
+        android:id="@+id/addmoney_dialog_button_addmoney"
+        android:paddingEnd="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/btn_rounded_red"/>
+
+</RelativeLayout>

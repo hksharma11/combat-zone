@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/home"
+        android:title="Home"
+        />
+
+
+
+    <item
+        android:id="@+id/mycontest"
+        android:icon="@drawable/mycontest"
+        android:title="My Contests"/>
+
+
+
+
+
+
+    <item
+        android:icon="@drawable/account"
+        android:id="@+id/account"
+        android:title="Account"/>
+
+
+    <item
+        android:icon="@drawable/more"
+        android:id="@+id/more"
+        android:title="More"/>
+
+
+
+</menu>

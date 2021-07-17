@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Notification">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:backgroundTint="#1e88e5"
+
+        android:id="@+id/toolbar"
+        android:background="@drawable/hometoolbar"
+
+
+        >
+
+
+        <View
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20sp"
+            android:id="@+id/notification_view_back"
+            android:backgroundTint="#fff"
+            android:background="@drawable/back"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Notifications"
+            android:textColor="#fff"
+            android:fontFamily="serif"
+            android:layout_centerInParent="true"
+            android:textSize="25sp"
+            />
+
+
+
+
+
+    </RelativeLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+
+        android:layout_below="@+id/toolbar"
+        android:layout_margin="10sp"
+
+
+
+        android:layout_height="match_parent"
+        android:id="@+id/notification_recycler"
+
+        >
+
+
+
+
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</RelativeLayout>

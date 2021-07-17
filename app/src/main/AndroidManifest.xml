@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.e.zone">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:theme">
+        <activity
+            android:name=".HowToPlay"
+            android:theme="@style/hometheme" />
+        <activity
+            android:name=".Results"
+            android:theme="@style/hometheme" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-7712739497173319~7166270547" />
+
+        <activity
+            android:name=".ResetPassword"
+            android:theme="@style/hometheme" />
+        <activity
+            android:name=".ForgotPasswordOtp"
+            android:theme="@style/hometheme" />
+        <activity
+            android:name=".ForgotPassword"
+            android:theme="@style/hometheme" />
+        <activity
+            android:name=".JoinContest"
+            android:theme="@style/hometheme" />
+        <activity
+            android:name=".Splash"
+            android:theme="@style/hometheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Refer"
+            android:theme="@style/hometheme" />
+        <activity
+            android:name=".Change_password"
+            android:theme="@style/hometheme" />
+        <activity
+            android:name=".Notification"
+            android:theme="@style/hometheme" />
+        <activity
+            android:name=".Contact_us"
+            android:theme="@style/hometheme" />
+        <activity
+            android:name=".ContestDetails"
+            android:theme="@style/hometheme" />
+        <activity
+            android:name=".More"
+            android:theme="@style/hometheme" />
+        <activity
+            android:name=".Account"
+            android:theme="@style/hometheme" />
+        <activity
+            android:name=".MyContest"
+            android:theme="@style/hometheme" />
+        <activity
+            android:name=".Otp"
+            android:theme="@style/hometheme" />
+        <activity
+            android:name=".SignIn"
+            android:theme="@style/hometheme" />
+        <activity
+            android:name=".SignUp"
+            android:theme="@style/hometheme" />
+        <activity
+            android:name=".Home"
+            android:theme="@style/hometheme" />
+        <activity
+            android:name=".Games"
+            android:theme="@style/hometheme" />
+        <activity
+            android:name="com.paytm.pgsdk.PaytmPGActivity"
+            android:configChanges="keyboardHidden|orientation|keyboard"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

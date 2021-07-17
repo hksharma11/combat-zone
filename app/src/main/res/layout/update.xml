@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/buttonround5"
+    android:layout_height="wrap_content">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:background="@drawable/border3"
+        android:paddingStart="50dp"
+        android:paddingEnd="50dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UPDATE NOTICE"
+            android:textColor="#292929"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/error"/>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:textColor="#000"
+            android:text="An Important update is available."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:text="Please update your app to"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:layout_height="wrap_content"
+            android:text="continue using it."/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UPDATE NOW"
+            android:textColor="#fff"
+            android:textSize="24dp"
+            android:padding="10dp"
+            android:id="@+id/update_button_update_now"
+            android:layout_margin="20dp"
+            android:background="@drawable/btn_rounded_red"
+
+            />
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HowToPlay">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:backgroundTint="#1e88e5"
+        android:elevation="2dp"
+        android:id="@+id/toolbar"
+        android:background="@drawable/hometoolbar"
+
+
+        >
+
+        <View
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20sp"
+            android:id="@+id/howtoplay_view_back"
+            android:backgroundTint="#fff"
+            android:background="@drawable/back"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="How To Play"
+            android:textColor="#fff"
+            android:fontFamily="serif"
+            android:layout_centerInParent="true"
+            android:textSize="25sp"
+            />
+
+
+
+
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_below="@id/toolbar"
+        android:layout_marginTop="10sp"
+        android:paddingStart="15sp"
+        android:paddingBottom="20sp"
+
+        android:paddingEnd="15sp"
+
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:elevation="2dp"
+            android:orientation="vertical"
+
+            android:background="@drawable/transcorner"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:padding="10sp"
+                android:id="@+id/howtoplay_textview1"
+                android:fontFamily="serif"
+                android:textColor="@color/homePrimaryDark"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:paddingStart="10sp"
+                android:id="@+id/howtoplay_textview2"
+                android:paddingEnd="10sp"
+
+                android:textSize="11sp"
+                tools:ignore="RtlSymmetry,SmallSp" />
+
+
+            <ImageView
+                android:layout_width="230dp"
+                android:layout_gravity="center"
+
+                android:id="@+id/howtoplay_imageview1"
+                android:layout_marginTop="10sp"
+                android:scaleType="fitXY"
+                android:layout_height="400dp"
+                />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:id="@+id/howtoplay_textview3"
+
+                android:paddingStart="10sp"
+                android:paddingEnd="10sp"
+
+                android:textSize="11sp"
+                tools:ignore="RtlSymmetry,SmallSp" />
+
+
+            <ImageView
+                android:layout_width="230dp"
+                android:layout_gravity="center"
+
+                android:id="@+id/howtoplay_imageview2"
+                android:layout_marginTop="10sp"
+                android:scaleType="fitXY"
+                android:layout_height="400dp"
+                />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:id="@+id/howtoplay_textview4"
+
+                android:paddingStart="10sp"
+                android:paddingEnd="10sp"
+
+                android:textSize="11sp"
+                tools:ignore="RtlSymmetry,SmallSp" />
+
+
+            <ImageView
+                android:layout_width="230dp"
+                android:layout_gravity="center"
+
+                android:layout_marginTop="10sp"
+                android:id="@+id/howtoplay_imageview3"
+                android:scaleType="fitXY"
+                android:layout_height="400dp"
+                />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+
+                android:paddingStart="10sp"
+                android:id="@+id/howtoplay_textview5"
+                android:paddingEnd="10sp"
+                android:paddingBottom="20sp"
+                android:textSize="11sp"
+                tools:ignore="RtlSymmetry,SmallSp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:padding="10sp"
+                android:id="@+id/howtoplay_textview6"
+                android:fontFamily="serif"
+                android:textColor="@color/homePrimaryDark"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:paddingStart="10sp"
+                android:paddingEnd="10sp"
+                android:id="@+id/howtoplay_textview7"
+
+                android:textSize="11sp"
+                tools:ignore="RtlSymmetry,SmallSp" />
+
+
+            <ImageView
+                android:layout_width="230dp"
+                android:layout_gravity="center"
+
+                android:layout_marginTop="10sp"
+                android:id="@+id/howtoplay_imageview4"
+                android:layout_marginBottom="20sp"
+                android:scaleType="fitXY"
+                android:layout_height="400dp"
+                />
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:padding="20sp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/homePrimary"
+        android:gravity="center"
+
+
+        android:text="Requested amount has been deducted from you wallet. You will receive money in your paytm wallet within 24 hours."
+        />
+
+</RelativeLayout>

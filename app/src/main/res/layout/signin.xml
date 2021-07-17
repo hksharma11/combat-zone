@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:paddingStart="50sp"
+    android:paddingEnd="50sp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/imageview"
+            android:layout_marginTop="30sp"
+            android:src="@drawable/icon"
+            />
+
+
+
+        <TextView
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textStyle="bold"
+            android:textColor="@color/homePrimary"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageview"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/head1"
+            android:layout_marginTop="5dp"
+            android:text="Welcome to Combat Zone"/>
+
+        <TextView
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
+            android:textColor="#90a4ae"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/head1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:text="Sign in to continue"/>
+ 
+
+
+
+
+
+
+
+
+        <TextView
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
+            android:textColor="#b0bec5"
+            android:layout_width="wrap_content"
+            android:layout_above="@+id/signin_edittext_phone"
+            android:layout_height="wrap_content"
+            android:text="PHONE NUMBER"/>
+
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:textColor="#37474f"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-4dp"
+            android:layout_marginRight="-4dp"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:id="@+id/signin_edittext_phone"
+            android:layout_marginBottom="20sp"
+            android:maxLength="10"
+            android:layout_above="@+id/text1"
+            android:inputType="number"/>
+
+        <TextView
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
+            android:textColor="#b0bec5"
+            android:layout_width="wrap_content"
+            android:id="@+id/text1"
+            android:layout_above="@+id/signin_edittext_password"
+            android:layout_height="wrap_content"
+            android:text="PASSWORD"/>
+
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:textColor="#37474f"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-4dp"
+            android:layout_marginRight="-4dp"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:layout_above="@+id/signin_button_signin"
+            android:maxLength="50"
+            android:layout_marginBottom="25sp"
+            android:id="@+id/signin_edittext_password"
+            android:inputType="textPassword"/>
+
+        <Button
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:background="@drawable/btn_rounded_green_300"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_above="@+id/sign_up_textview_forgot_password"
+            android:id="@+id/signin_button_signin"
+            android:layout_marginLeft="-4dp"
+            android:layout_marginRight="-4dp"
+            android:text="S I G N  I N"
+            android:layout_marginBottom="15dp"
+
+            android:textAllCaps="false"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sign_up_textview_forgot_password"
+            android:layout_above="@+id/sign_up_for_account"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
+            android:textColor="#78909c"
+            android:layout_centerHorizontal="true"
+            android:text="FORGOT PASSWORD ?"
+            />
+
+
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:id="@+id/sign_up_for_account"
+            android:layout_width="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
+                android:textColor="#78909c"
+                android:id="@+id/signin_textview_signup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SIGN UP FOR AN ACCOUNT?"/>
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
+
+
+

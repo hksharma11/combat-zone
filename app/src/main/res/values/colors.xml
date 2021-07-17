@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">@android:color/white</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="customPrimary">#81c784</color>
+    <color name="customPrimaryDark">#81c784</color>
+    <color name="customAccent">#81c784</color>
+    
+    
+    <color name="homePrimary">#1e88e5</color>
+    <color name="homePrimaryDark">#005cb2</color>
+    <color name="homeAccent">#6ab7ff</color>
+</resources>

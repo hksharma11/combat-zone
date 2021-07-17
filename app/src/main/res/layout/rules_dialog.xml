@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="10sp"
+    android:minHeight="100dp"
+    android:background=" #F1F1D4"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/rules_dialog_rule1"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rules_dialog_rule2"
+        android:visibility="gone"
+        android:layout_marginTop="15sp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rules_dialog_rule3"
+        android:visibility="gone"
+        android:layout_marginTop="15sp"
+
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rules_dialog_rule4"
+        android:visibility="gone"
+        android:layout_marginTop="15sp"
+
+        />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rules_dialog_rule5"
+        android:visibility="gone"
+        android:layout_marginTop="15sp"
+
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/rules_dialog_rule6"
+        android:layout_marginTop="15sp"
+
+        />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/rules_dialog_rule7"
+        android:layout_marginTop="15sp"
+
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rules_dialog_rule8"
+        android:visibility="gone"
+        android:layout_marginTop="15sp"
+
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rules_dialog_rule9"
+        android:visibility="gone"
+        android:layout_marginTop="15sp"
+
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        android:id="@+id/rules_dialog_rule10"
+        android:layout_marginTop="15sp"
+
+        />
+
+</LinearLayout>
